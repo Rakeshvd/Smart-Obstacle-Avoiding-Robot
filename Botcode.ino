@@ -8,12 +8,12 @@ int BluetoothData; // the data transmitted over Bluetooth
 void setup() {
 intelli_bot.begin(9600);
 Serial.begin(9600);
-pinM ode(mot1,OUTPUT);
-pinM ode(mot2,OUTPUT);
-pinM ode(mot3,OUTPUT);
-pinM ode(mot4,OUTPUT);
-pinM ode(echoPin1,INPUT);
-pinM ode(trigPin1,OUTPUT);
+pinMode(mot1,OUTPUT);
+pinMode(mot2,OUTPUT);
+pinMode(mot3,OUTPUT);
+pinMode(mot4,OUTPUT);
+pinMode(echoPin1,INPUT);
+pinMode(trigPin1,OUTPUT);
 }
 void loop() {
 long duration1, distance1;
